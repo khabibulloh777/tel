@@ -1,0 +1,158 @@
+
+.iPhone {
+    align-items: center;
+  text-align: center;
+ background-color: chartreuse;
+ z-index: 111;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.kantener{
+    width: 99%;
+    height: 600px;
+    margin: 50px 0.5%;
+    display: flex;
+}
+
+.opshi {
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+    margin: 5px;
+    
+}
+
+
+.one {
+    background-image: url(6s.jfif);
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.rasm1 {
+    text-align: center;
+}
+a .buy {
+    text-align: center;
+}
+.ikki{
+    width: 40%;
+    height: 600px;
+    background-color: chartreuse;
+    margin: 5px;
+    color: black;
+}
+
+.two {
+    background-image: url(7.jfif);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.rasm2{
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper2 {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.kantener2{
+    width: 99%;
+    height: 500%;
+    margin: 50px 0.5%;
+    display: flex;
+}
+
+.uch {
+    width: 50%;
+    height: 700px;
+    background-co
+    margin: 5px;
+}
+.chu {
+    background-image: url(8.jfif);
+    background-repeat: no-repeat;
+    background-position: center center bottom;
+    background-size: contain;
+}
+.rasm3{
+    text-align: center;
+}
+
+.tortinchi {
+    width: 50%;
+    height: 700px;
+    background-color: ;
+    margin: 5px;
+}
+
+.tort {
+    background-image: url(11.jfif);
+    background-position: center center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
+
+.rasm4{
+    text-align: center;
+}
+
+.katta{
+    width: 100%;
+    height: 630px;
+    background-image: url(12.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+}
+.rasm5{
+    text-align: center;
+}
+
+
+
+.line{
+    height: 20px;
+    width: 100%;
+    border-bottom: 1px solid yellow;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 400px){
+      .iPhone{
+          width: 100%;
+          bottom: 100px;
+      }
+}
+
+@media(max-width: 500px) {
+    .opshi  {
+        width: 100%;
+        bottom: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .ikki {
+        width: 100%;
+        top: 20px;
+    }
+}
+

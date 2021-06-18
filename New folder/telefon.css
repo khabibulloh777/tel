@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    max-height: 55px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    backdrop-filter: blur(50);
+    
+}
+nav {
+    height: 50px;
+    max-height: 55px;
+    width: 80%;
+    margin: 0px auto;
+}
+.nav_can {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navv_1{
+    text-decoration: none;
+    color: yellow;
+}
+
+.navv_1:hover{
+    text-decoration: underline;
+    width: 50%;
+}
+
+
+
+.xush_kelibsz {
+    background-color: rgb(255, 255, 13);
+    text-align: center;
+    padding: 10px 0;
+
+}
+.xush_kelibsz a{
+    text-decoration: none;
+    color: rgb(96, 244, 108);
+}
+
+a.kelib:hover {
+    background-color: rgb(208, 255, 0)(208, 255, 0);
+}
+.birincgi_ras {
+    width: 100%;
+    height: 700px;
+    background-image: url(main.jpg );
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    margin-bottom: 0 100px 200px 100px;
+    text-align: center;
+}
+.samsung {
+    background-image: url(a22.jfif);
+    background-position: center center center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: ;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.lg {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url(LG.webp);
+    background-position: center ;
+    background-size: cover ;
+
+}
+
+.redmi {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background-image: url(redmi-note-8-pro-1.png);
+    background-size: cover;
+    background-position: center center top;
+}
+.line {
+    height: 20px;
+    width: 50%;
+    border-bottom: 3px solid yellow;
+    margin: auto;
+}
+.nav {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+.footer {
+    text-decoration: none;
+  list-style: none;
+}
+li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(64, 75, 224);
+}
+.oxiri {
+    margin-top: 200px;
+    width: 80%;
+    font-size: 15px;
+   height: 200px;
+   margin-left: 140px;
+}
+h4 {
+    text-align: center;
+    margin-top: 35px;
+}
